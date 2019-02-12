@@ -65,4 +65,5 @@ table{
 }
 .table{
   margin: 24px;
+  direction: rtl;  
 }

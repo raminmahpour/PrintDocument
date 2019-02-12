@@ -6,7 +6,7 @@ body {
     display: block;
     margin: 0 auto;
     margin-bottom: 0.5cm;
-    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    /* box-shadow: 0 0 0.5cm rgba(0,0,0,0.5); */
   }
   page[size="A4"] {  
     width: 21cm;
@@ -61,9 +61,31 @@ table{
 .offset
 {
 
-  padding: 39px;
+  padding: 10px;
 }
 .table{
-  margin: 24px;
+  /* margin: 24px; */
   direction: rtl;  
+}
+
+div.watermark {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  left: 46%;
+  top: 50%;
+}
+div.watermark::after {
+  content: "";
+  background: url(http://ofoqelec.com/Content/images/gallery/d5f74356-9a9f-455b-b59b-241f9040791c.jpg);
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
 }

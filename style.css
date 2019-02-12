@@ -49,4 +49,12 @@ tbody:first-of-type { background-color: #eee; }
   direction: rtl;
   text-align: right;
 }
+.clear{
 
+clear: both;
+
+}
+table{
+
+  width: 100%
+}

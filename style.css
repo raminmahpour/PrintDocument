@@ -40,7 +40,7 @@ body {
 }
 
 table, th, td { border: 1px solid gray; border-collapse: collapse; }
-th, td { padding: 8px; }
+th, td { padding: 3px; }
 tbody:first-of-type { background-color: #eee; }
 
 
@@ -68,7 +68,7 @@ table{
   direction: rtl;  
 }
 
-div.watermark {
+/* div.watermark {
   width: 200px;
   height: 200px;
   display: block;
@@ -88,4 +88,4 @@ div.watermark::after {
   position: absolute;
   z-index: -1;
   background-repeat: no-repeat;
-}
+} */
